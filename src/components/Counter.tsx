@@ -7,7 +7,7 @@ function Counter({ initValue }: CounterProps) {
   return (
     <div>
       <h1>Counter With Tests (jest)</h1>
-      <h2>{count}</h2>
+      <h2 data-testid="count">{count}</h2>
     </div>
   )
 }
